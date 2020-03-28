@@ -1,0 +1,4 @@
+{
+  "$schema": "../../../../../node_modules/nx-electron/src/validation/maker.schema.json",
+  "asar": true
+}

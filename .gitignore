@@ -1,0 +1,48 @@
+# use yarn (yarn.lock) instad of npm (package-lock.json)
+package-lock.json
+# use `docs/` instead of `documentation/`
+/documentation
+# docs for monorepo are not support well yet, so we build docs for app and api separately as of now
+# we can start commit our docs into repo when compodoc support single doc for multiple apps (say v1.2.0)
+# @see https://github.com/compodoc/compodoc/issues/719
+/docs
+
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+
+# dependencies
+/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db

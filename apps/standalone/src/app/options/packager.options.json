@@ -1,0 +1,7 @@
+{
+  "$schema": "../../../../../node_modules/nx-electron/src/validation/packager.schema.json",
+  "asar": true,
+  "ignoreSourceMap": true,
+  "overwrite": true,
+  "prune": true
+}
